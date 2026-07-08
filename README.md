@@ -33,29 +33,29 @@
            
               &gt; OS Version: Microsoft Server 2025 (64-bit)
  
-           <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/f2aaa412-1faa-48c5-a507-8fbefe28d625" />
+             <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/f2aaa412-1faa-48c5-a507-8fbefe28d625" />
 
+          - ##### Skip "Unattednded guest OS installation"
            
-        2. Skip "Unattednded guest OS installation"
+          - ##### Under "Specify Virtual hardware"
            
-        4. Under "Specify Virtual hardware"
               &gt; Base Mempry: 2048MB(2GB)
-           
+     
               &gt; Number of CPU: 1
  
-           <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/03a27394-f4e3-4e83-9d6e-079ae74f8ce4" />
+              <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/03a27394-f4e3-4e83-9d6e-079ae74f8ce4" />
 
            
-        6. Under "Specify Virtual Disk"
+           - ##### Under "Specify Virtual Disk"
            
               &gt; Disk Size: 50GB
 
-           <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/a7fe0c6f-a34b-4fa5-ac7e-0aa613b3bd62" />
+              <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/a7fe0c6f-a34b-4fa5-ac7e-0aa613b3bd62" />
 
-        7. Click "Finish" and the VM will be created with the summory of the machine resources
+           - ##### Click "Finish" and the VM will be created with the summory of the machine resources
      
-           <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/4f8dc099-e2b0-47bd-a38a-1858b9f52525" />
+              <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/4f8dc099-e2b0-47bd-a38a-1858b9f52525" />
 
-     
+        2. Windows Server installation and setup  
            
            
