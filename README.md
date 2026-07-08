@@ -13,3 +13,7 @@
     - ##### Download Microfost Windows Server ISO File Here: <a href="https://info.microsoft.com/ww-landing-evaluate-windows-server-2025.html" target=" _blank">Windows Server 2025 Download Website</a>
 
     - ***This is a +7GB file, It may take long depending on your machine's resources, so plan accordingly.***
+      
+    - Follow the installation guide below
+ 
+      1. Create a Virtual Machine and allocate resources on VirtualBox
