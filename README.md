@@ -17,3 +17,31 @@
     - Follow the installation guide below
  
       1. Create a Virtual Machine and allocate resources on VirtualBox
+         - ##### Open VirtualBox and Click "New"
+         - ##### Under "Virtual machine name and operating system"
+              &gt;  VM Name: DC01
+           
+              &gt;  VM Folder: Leave as it is
+           
+              &gt;  ISO Imaage: Select the downloaded Windows Server ISO file from the folder is saved or downloaded to
+           
+              &gt; OS Edition: Will autofill after the server image is selected
+           
+              &gt; NB: Uncheck "Proceed with Unattended Installation"
+           
+              &gt; OS: Leave as "Microsoft Windows"
+           
+              &gt; OS Version: Microsoft Server 2025 (64-bit)
+           
+        2. Skip "Unattednded guest OS installation"
+           
+        4. Under "Specify Virtual hardware"
+              &gt; Base Mempry: 2048MB(2GB)
+           
+              &gt; Number of CPU: 1
+           
+        5. Under "Specify Virtual Disk"
+           
+              &gt; Disk Size: 50GB
+
+           
