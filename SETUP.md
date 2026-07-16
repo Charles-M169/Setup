@@ -97,7 +97,7 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 ### Installing Windows Server 2019
 - Power on **DC01** by clicking **Start**.
 - When prompted to **Press any key to boot from CD or DVD**, Do not press any key.
-- The **Windows Setup** page will come-up
+- Under **Windows Setup** Settings
   - Language to install: 'English'
   - Time and currency format: 'English'
   - Keyboard or input method: 'US'
@@ -125,7 +125,7 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 
     <img width="975" height="677" alt="image" src="https://github.com/user-attachments/assets/e607c8ac-1e3c-4f49-97d2-b0cf8cec091c" />
 
-- Under **Basic**
+- Under **Basic** Settings
   - Region: 'South Africa'
     
     <img width="975" height="805" alt="image" src="https://github.com/user-attachments/assets/c6f5ed7e-d7d2-4d46-bb78-4d539523d9ad" />
@@ -135,7 +135,27 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
   
     <img width="975" height="799" alt="image" src="https://github.com/user-attachments/assets/19fcfae6-a4d6-47d4-817f-6b21532edca7" />
 
-- Set a strong local administrator password, then click 'Finish'.
+- Under **Account** Settings
+  - Select **Set up for personal use** and 'Next'
+
+    <img width="975" height="800" alt="image" src="https://github.com/user-attachments/assets/145e163a-d952-4bb4-9807-7a353c081eb9" />
+
+  - Select **Limited experience** and 'Next'
+ 
+    <img width="975" height="798" alt="image" src="https://github.com/user-attachments/assets/11ec9f7d-db92-4285-8ab1-c4f7605ce8b6" />
+
+  - Choose a name you want to use and 'Next'
+ 
+    <img width="975" height="802" alt="image" src="https://github.com/user-attachments/assets/8b20e37c-1aa3-48e6-b36a-1a58d523f55e" />
+
+  - Choose a password and 'Next'
+ 
+    <img width="975" height="803" alt="image" src="https://github.com/user-attachments/assets/bb5c193b-e89a-4b5a-9c46-fa159356430e" />
+
+  - Create security questions for the account and 'Next'
+
+    <img width="975" height="799" alt="image" src="https://github.com/user-attachments/assets/29e520cb-fe2d-491b-8006-bf3b8ccb7d9f" />
+
 
 ![Create Local Admin](images/os-installation/dc01-os/05-create-local-admin.png)
 
