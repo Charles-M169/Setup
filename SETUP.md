@@ -103,29 +103,38 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
   - Keyboard or input method: 'US'
   - Then click 'Next'
  
-<img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/6d2c78a2-cb65-42e3-9f7b-d0f0590ac240" />
-
-  - Activate Windows, We click on **I don't have a product key**
+    <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/6d2c78a2-cb65-42e3-9f7b-d0f0590ac240" />
  
-<img width="975" height="631" alt="image" src="https://github.com/user-attachments/assets/66becbb1-afbc-4730-a31d-ab7e99e3c646" />
+  - Activate Windows, we click on **I don't have a product key**
+    
+    <img width="975" height="631" alt="image" src="https://github.com/user-attachments/assets/66becbb1-afbc-4730-a31d-ab7e99e3c646" />
 
   - Accept the license terms, click `Next`.
 
-<img width="975" height="647" alt="image" src="https://github.com/user-attachments/assets/f931a188-97d1-454a-b87d-838110159f29" />
+    <img width="975" height="647" alt="image" src="https://github.com/user-attachments/assets/f931a188-97d1-454a-b87d-838110159f29" />
 
   - Choose **Custom: Install Windows only (advanced)**.  
 
-<img width="975" height="633" alt="image" src="https://github.com/user-attachments/assets/6be15952-0229-496e-ba9b-750d45001bec" />
+    <img width="975" height="633" alt="image" src="https://github.com/user-attachments/assets/6be15952-0229-496e-ba9b-750d45001bec" />
 
   - Select drive and click `Next`.
 
-<img width="975" height="611" alt="image" src="https://github.com/user-attachments/assets/b4bc7014-f1ae-4edb-91fe-89e96d1ccfe1" />
+    <img width="975" height="611" alt="image" src="https://github.com/user-attachments/assets/b4bc7014-f1ae-4edb-91fe-89e96d1ccfe1" />
 
   - **Installing windows** will commence
 
-<img width="975" height="677" alt="image" src="https://github.com/user-attachments/assets/e607c8ac-1e3c-4f49-97d2-b0cf8cec091c" />
+    <img width="975" height="677" alt="image" src="https://github.com/user-attachments/assets/e607c8ac-1e3c-4f49-97d2-b0cf8cec091c" />
 
-- Under **
+- Under **Basic**
+  - Region: 'South Africa'
+    
+    <img width="975" height="805" alt="image" src="https://github.com/user-attachments/assets/c6f5ed7e-d7d2-4d46-bb78-4d539523d9ad" />
+
+  - Keyboard Layout: 'US'
+  - Second Keyboard Layout: 'Skip'
+  
+    <img width="975" height="799" alt="image" src="https://github.com/user-attachments/assets/19fcfae6-a4d6-47d4-817f-6b21532edca7" />
+
 - Set a strong local administrator password, then click 'Finish'.
 
 ![Create Local Admin](images/os-installation/dc01-os/05-create-local-admin.png)
