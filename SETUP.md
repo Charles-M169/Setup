@@ -156,32 +156,19 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 
     <img width="975" height="799" alt="image" src="https://github.com/user-attachments/assets/29e520cb-fe2d-491b-8006-bf3b8ccb7d9f" />
 
+- Under **Service** settings
+  - Always have access to your recent browsing data: 'Not Now'
+  - Choose privacy settings for your device: 'Uncheck all' and 'Accept'
+ 
+    <img width="975" height="795" alt="image" src="https://github.com/user-attachments/assets/7b39174c-c702-4205-886d-5932db1304be" />
 
-![Create Local Admin](images/os-installation/dc01-os/05-create-local-admin.png)
+  - Customize experience: 'Skip'
+ 
+    <img width="975" height="798" alt="image" src="https://github.com/user-attachments/assets/b6a4c329-a5da-485e-a804-38791e03fe0a" />
 
-- Once installed, log in.
-  - Click `Send Ctrl+Alt+Del to this virtual machine`.
-  - Log in. 
-
-![Ctrl+Alt+Del](images/os-installation/dc01-os/06-ctrl-alt-del.png)
-
-- Allow for network discovery if prompted.
-
-![Install VMware Tools](images/os-installation/dc01-os/07-network-discovery.png)
-
-- Install VMware Tools.
-  - This improves performance, mouse behavior, and screen resolution.
-  
-![Install VMware Tools](images/os-installation/dc01-os/08-install-vmware-tools.png)
-
-  - Click `Next`.
-  - Select **Typical**, click `Next`.
-
-  ![VMware Tools Typical Install](images/os-installation/dc01-os/09-vmware-tools-typical.png)
-
-  - Click `Install`, then `Finish`.
-  - Click `Yes` to restart.
-    - There's a mandatory restart coming up in a few steps after you rename this computer, so you can hold off on restarting if you want to. Or can you...?
+  - It will take a few minutes or so depending on your resource.
+ 
+    <img width="975" height="801" alt="image" src="https://github.com/user-attachments/assets/9bfc31e6-56ed-4c71-ad68-cd5b8266f11f" />
 
 **OS: Installed. 🎉 Good job!**
 
