@@ -178,6 +178,24 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 
 ## <h2 id="network-and-ad-configuration-dc01"> 🌐 Network & AD Configuration </h2>
 
+### 1. Renaming adaptors
+- **Control Panel** → **Network and Internet** → **Network and Sharing Center** → **Change adapter settings**.
+
+  <img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/27870879-ebff-412f-acd1-8a67825ef982" />
+
+- Run ipconfig on CMD to confirm the adaptor s as to which belongs to 'NAT adaptor' and which to 'Internal network adaptor'.
+- Ethernet 1: This belongs to 'NAT' adaptor
+- Ethernet 2: This belongs to 'Internal Network' adaptor
+
+  <img width="975" height="444" alt="image" src="https://github.com/user-attachments/assets/94720d2a-6eb2-41ab-b473-0a23f9b6f108" />
+
+- I rename 'Ethernet 1' to '_INTERNET' and 'Ethernet 2' to 'ÇHARL_NAT'
+
+  <img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/0797e2d8-debe-4940-b840-86a1d5a66dbd" />
+
+
+
+
 ### 1. Set Static IP on DC01 (Host-Only Adapter)
 - **Control Panel** → **Network and Internet** → **Network and Sharing Center** → **Change adapter settings**.
 
