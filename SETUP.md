@@ -9,7 +9,7 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 - [⚙️ Oracle VirtualBox Installation](#Oracle-VirtualBox-installation)
 - [Domain Controller (DC01)](#domain-controller-dc01)
   - [🛠️ Virtual Machine Setup](#virtual-machine-setup-dc01)
-  - [💽 Windows OS Installation](#windows-os-installation-dc01)
+  - [💽 Windows Server 2025 Installation](#windows-server-2025-installation-dc01)
   - [🌐 Network and AD Configuration](#network-and-ad-configuration-dc01)
 - [Client Machine (CLIENT01)](#client-machine-client01)
   - [🛠️ Virtual Machine Setup](#virtual-machine-setup-client01)
@@ -92,86 +92,66 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 
 ---
 
-## <h2 id="windows-os-installation-dc01"> 💽 Windows OS Installation </h2>
+## <h2 id="windows-server-2025-installation-dc01"> 💽 Windows Sever 2025 Installation </h2>
 
-### Installing Windows Server 2019
+### Installing Windows Server 2025
 - Power on **DC01** by clicking **Start**.
 - When prompted to **Press any key to boot from CD or DVD**, Do not press any key.
-- Under **Windows Setup** Settings
+- Under **Windows Server 2025 Setup** Settings
   - Language to install: 'English'
   - Time and currency format: 'English'
+ 
+    <img width="975" height="639" alt="image" src="https://github.com/user-attachments/assets/93f3665e-7fe0-48ec-a50a-174b80431f0b" />
+
   - Keyboard or input method: 'US'
   - Then click 'Next'
  
-    <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/6d2c78a2-cb65-42e3-9f7b-d0f0590ac240" />
+    <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/3c4a20fb-60ad-4b4a-8a86-f16ec4f08bcf" />
  
-  - Activate Windows, we click on **I don't have a product key**
+  - Setup option, click on **Install Windows Server**
     
-    <img width="975" height="631" alt="image" src="https://github.com/user-attachments/assets/66becbb1-afbc-4730-a31d-ab7e99e3c646" />
+    <img width="975" height="670" alt="image" src="https://github.com/user-attachments/assets/8eb7b262-8f3e-4aa2-a308-f4f56c50aade" />
 
-  - Accept the license terms, click `Next`.
+  - 'Accept' Application notice and license terms.
 
-    <img width="975" height="647" alt="image" src="https://github.com/user-attachments/assets/f931a188-97d1-454a-b87d-838110159f29" />
+    <img width="975" height="672" alt="image" src="https://github.com/user-attachments/assets/93982555-ce92-40ff-a608-0b6a5760d92b" />
 
-  - Choose **Custom: Install Windows only (advanced)**.  
+  - Select drive and click'Next'.  
 
-    <img width="975" height="633" alt="image" src="https://github.com/user-attachments/assets/6be15952-0229-496e-ba9b-750d45001bec" />
+    <img width="975" height="647" alt="image" src="https://github.com/user-attachments/assets/d00cf9ec-49ec-430f-9178-f40c6cef8a5e" />
 
-  - Select drive and click `Next`.
+  - `Ready to install` click **Install**.
 
-    <img width="975" height="611" alt="image" src="https://github.com/user-attachments/assets/b4bc7014-f1ae-4edb-91fe-89e96d1ccfe1" />
-
-  - **Installing windows** will commence
-
-    <img width="975" height="677" alt="image" src="https://github.com/user-attachments/assets/e607c8ac-1e3c-4f49-97d2-b0cf8cec091c" />
-
-- Under **Basic** Settings
-  - Region: 'South Africa'
-    
-    <img width="975" height="805" alt="image" src="https://github.com/user-attachments/assets/c6f5ed7e-d7d2-4d46-bb78-4d539523d9ad" />
-
-  - Keyboard Layout: 'US'
-  - Second Keyboard Layout: 'Skip'
-  
-    <img width="975" height="799" alt="image" src="https://github.com/user-attachments/assets/19fcfae6-a4d6-47d4-817f-6b21532edca7" />
-
-- Under **Account** Settings
-  - Select **Set up for personal use** and 'Next'
-
-    <img width="975" height="800" alt="image" src="https://github.com/user-attachments/assets/145e163a-d952-4bb4-9807-7a353c081eb9" />
-
-  - Select **Limited experience** and 'Next'
- 
-    <img width="975" height="798" alt="image" src="https://github.com/user-attachments/assets/11ec9f7d-db92-4285-8ab1-c4f7605ce8b6" />
-
-  - Choose a name you want to use and 'Next'
- 
-    <img width="975" height="802" alt="image" src="https://github.com/user-attachments/assets/8b20e37c-1aa3-48e6-b36a-1a58d523f55e" />
-
-  - Choose a password and 'Next'
- 
-    <img width="975" height="803" alt="image" src="https://github.com/user-attachments/assets/bb5c193b-e89a-4b5a-9c46-fa159356430e" />
-
-  - Create security questions for the account and 'Next'
-
-    <img width="975" height="799" alt="image" src="https://github.com/user-attachments/assets/29e520cb-fe2d-491b-8006-bf3b8ccb7d9f" />
-
-- Under **Service** settings
-  - Always have access to your recent browsing data: 'Not Now'
-  - Choose privacy settings for your device: 'Uncheck all' and 'Accept'
- 
-    <img width="975" height="795" alt="image" src="https://github.com/user-attachments/assets/7b39174c-c702-4205-886d-5932db1304be" />
-
-  - Customize experience: 'Skip'
- 
-    <img width="975" height="798" alt="image" src="https://github.com/user-attachments/assets/b6a4c329-a5da-485e-a804-38791e03fe0a" />
+    <img width="975" height="663" alt="image" src="https://github.com/user-attachments/assets/f52c6aff-e4d5-46fb-8878-4429d081ffc0" />
 
   - It will take a few minutes or so depending on your resource.
  
-    <img width="975" height="801" alt="image" src="https://github.com/user-attachments/assets/9bfc31e6-56ed-4c71-ad68-cd5b8266f11f" />
+    <img width="975" height="661" alt="image" src="https://github.com/user-attachments/assets/83ea695f-fc83-41b1-8b22-a4af5de7175b" />
 
-**OS: Installed. 🎉 Good job!**
+  - Create a password for 'Administrator' account
+ 
+    <img width="975" height="617" alt="image" src="https://github.com/user-attachments/assets/37b32246-673c-486c-8842-de4c394e5dec" />
 
+  - Then 'Login' to your administrator account
+ 
+    <img width="975" height="678" alt="image" src="https://github.com/user-attachments/assets/547125fc-0e00-4534-9c8c-ec50639c4ddf" />
+
+  - **Windows Server 2025 installed successfully**
+ 
+    <img width="975" height="857" alt="image" src="https://github.com/user-attachments/assets/e6747788-b2c3-45e9-a64c-2b718c07adb5" />
+
+- Making Windows Server automatically fill the screen.
+  - Click **Devices** at the 'Manu Bar' of 'VirtualBox', select **Insert Guest Addition CD Image**
+  - Open **file Explorer** on Windows Sever, and click **This PC**
+ 
+    <img width="975" height="608" alt="image" src="https://github.com/user-attachments/assets/e26a952b-1f06-45e4-b7d2-03220c28604d" />
+
+  - Double click **CD Drive (D:) VirtualBox Guest Additions**
+  - Look for and double click on **VBoxWindowsAdditional-arm64** to begin installation
+  - Click 'Next' until installation is complete and 'Finish' to restart
+ 
+    <img width="975" height="691" alt="image" src="https://github.com/user-attachments/assets/c6e7b389-547d-445e-9a83-a8c80adbf40a" />
+  -   
 [🔝 Back to Top](#top)
 
 ---
@@ -219,6 +199,9 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 ### 3. Rename DC01
 - There are 2 ways you can rename the Windows server PC
 - Firstly, via **Control Panel** → **System and Security** → **System**.
+
+  <img width="975" height="813" alt="image" src="https://github.com/user-attachments/assets/721508b9-9919-47bd-be2a-bd3232460760" />
+
 - Then click on 'Rename your PC'
 
   <img width="975" height="914" alt="image" src="https://github.com/user-attachments/assets/bbc192ce-0984-49cc-ac69-ca5ea4f4daee" />
