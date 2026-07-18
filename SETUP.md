@@ -270,38 +270,47 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 ---
 
 ### 4. Promote DC01 to Domain Controller
-- Select **Promote this server**.
-
-![Promote Server](images/ad-setup/dc01-ad/06-promote-server.png)
-
-- And for those of you didn't pay attention to the warning about closing the window, you'll see a yellow notification like this on your Server Manager Dashboard. Click on it.
+- Click on The notification icon
 - Click **Promote this server to a domain controller**.
 
-![Didn't Listen](images/ad-setup/dc01-ad/07-promote-server-did-not-listen.png)
+  <img width="975" height="892" alt="image" src="https://github.com/user-attachments/assets/dcd9d378-be62-4eb4-86ab-4b2d0518212d" />
 
 - Select **Add a new forest**.
-- Set the Root domain name to `corp.local`.
+- Set the Root domain name to `charl.com`, and click 'Next'
 
-![Domain Name](images/ad-setup/dc01-ad/08-add-forest.png)
+  <img width="975" height="964" alt="image" src="https://github.com/user-attachments/assets/c0781549-ec75-427d-b887-a18f633a3939" />
 
-- Set DSRM password.
-  - Write it down.
-  - You already forgot it, didn't you?
-  - Seriously, you'll need it for certain recovery tasks.
-- Click `Next`.
+- Set DSRM password, and click 'Next'
 
-![Set DSRM Password](images/ad-setup/dc01-ad/09-dsrm-password.png)
+<img width="975" height="940" alt="image" src="https://github.com/user-attachments/assets/7e8333d8-ffad-4ea8-9c73-88eca5ac45b5" />
 
-- Accept defaults in the following sections and click `Install`.
-  - The yellow warnings are ok. As long as there are no actual errors you'll be fine. Trust me...
+- Leave 'DNS Options' as default and click `Install`.
+  - The yellow warnings are ok. As long as there are no actual errors you'll be fine.
 
-![Install Forest](images/ad-setup/dc01-ad/10-install-forest.png)
+  <img width="975" height="895" alt="image" src="https://github.com/user-attachments/assets/2925a218-46b8-41ff-bc7e-06d5cd2227ee" />
 
-- Server will reboot automatically after configuration.
+- Leave 'Additional Options' as Default and click 'Next'
 
-![Reboot](images/ad-setup/dc01-ad/11-reboot.png)
+  <img width="975" height="894" alt="image" src="https://github.com/user-attachments/assets/82cb7c5b-4034-403d-9f92-9dc3af11254f" />
 
-**Congrats! You’ve just created your own domain controller! 🎉**
+- Leave 'Paths' as default and click Next
+
+  <img width="975" height="893" alt="image" src="https://github.com/user-attachments/assets/ab8037da-181d-4e7f-aaa1-0a3730a4e818" />
+
+- Clcik 'Next' on 'Review Options'
+
+  <img width="975" height="947" alt="image" src="https://github.com/user-attachments/assets/98ab3a34-18f7-4781-9665-f76cd99921f9" />
+
+- Click 'Install' once prerequisites Checks is done
+
+  <img width="975" height="850" alt="image" src="https://github.com/user-attachments/assets/ed70c45b-0169-4958-b335-d250ba50cf9e" />
+
+- Server automatically reboot once configuration is done
+- The administrator account at login will now be CHARL\Administrator
+
+  <img width="975" height="959" alt="image" src="https://github.com/user-attachments/assets/50d8c764-61b9-431f-9a45-5ebbf54f866c" />
+
+**Domain controller successfully created! 🎉**
 
 [🔝 Back to Top](#top)
 
