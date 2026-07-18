@@ -189,40 +189,34 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 
   <img width="975" height="444" alt="image" src="https://github.com/user-attachments/assets/94720d2a-6eb2-41ab-b473-0a23f9b6f108" />
 
-- I rename 'Ethernet 1' to '_INTERNET' and 'Ethernet 2' to 'ÇHARL_NAT'
+- I rename 'Ethernet 1' to **'_INTERNET'** and 'Ethernet 2' to **'ÇHARL_NAT'**
 
   <img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/0797e2d8-debe-4940-b840-86a1d5a66dbd" />
 
-
-
-
-### 1. Set Static IP on DC01 (Host-Only Adapter)
+### 2. Set Static IP on DC01 (CHARL_NAT)
 - **Control Panel** → **Network and Internet** → **Network and Sharing Center** → **Change adapter settings**.
 
-![Change Adapter Settings](images/network-setup/dc01-network/01-change-adapter-settings.png)
+  <img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/b3828aaa-deda-4e83-b6a9-5587cd52b037" />
 
-- Right-click **Ethernet1** and click `Properties`.
+- Right-click **CHARL_NAT** and click `Properties`.
 
-![Ethernet1 Properties](images/network-setup/dc01-network/02-right-click-ethernet1.png)
+  <img width="975" height="526" alt="image" src="https://github.com/user-attachments/assets/e9c242cb-c592-4ff1-b1a5-88c9cfd480fd" />
 
 - Select **Internet Protocol Version 4**, then click `Properties`.
-
-![IPv4 Properties](images/network-setup/dc01-network/03-ethernet1-properties.png)
-
 - Use the following:
-  - IP: `192.168.100.10`
+  - IP: `172.16.0.1`
   - Subnet: `255.255.255.0`
   - Gateway: (leave blank)
   - DNS: `127.0.0.1`
 - Click `OK`.
  
-![IP Settings](images/network-setup/dc01-network/04-ipv4-settings.png)
+  <img width="975" height="500" alt="image" src="https://github.com/user-attachments/assets/d6d9fb63-bfd2-4873-b91f-8c728cd4170d" />
 
 [🔝 Back to Top](#top)
 
 ---
 
-### 2. Rename DC01
+### 3. Rename DC01
 - In **Server Manager**, click on **Local Server**.
 - Click on the computer name in blue. 
 - No, not that one. 
@@ -249,7 +243,7 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 
 ---
 
-### 3. Install Active Directory Domain Services (AD DS)
+### 4. Install Active Directory Domain Services (AD DS)
 - Log in (obviously).
 - **Server Manager** → **Manage** → **Add Roles and Features**.
 
