@@ -144,14 +144,14 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
   - Click **Devices** at the 'Manu Bar' of 'VirtualBox', select **Insert Guest Addition CD Image**
   - Open **file Explorer** on Windows Sever, and click **This PC**
  
-    <img width="975" height="608" alt="image" src="https://github.com/user-attachments/assets/e26a952b-1f06-45e4-b7d2-03220c28604d" />
+    <img width="975" height="691" alt="image" src="https://github.com/user-attachments/assets/34a1963b-9547-4b2a-a678-a667f65f83ec" />
 
   - Double click **CD Drive (D:) VirtualBox Guest Additions**
   - Look for and double click on **VBoxWindowsAdditional-arm64** to begin installation
   - Click 'Next' until installation is complete and 'Finish' to restart
  
     <img width="975" height="691" alt="image" src="https://github.com/user-attachments/assets/c6e7b389-547d-445e-9a83-a8c80adbf40a" />
-  -   
+    
 [🔝 Back to Top](#top)
 
 ---
@@ -230,29 +230,35 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 ---
 
 ### 4. Install Active Directory Domain Services (AD DS)
-- Log in (obviously).
-- **Server Manager** → **Manage** → **Add Roles and Features**.
+- Log in to Windows Server.
+- Navigate to **Server Manager** → **Manage** → **Add Roles and Features**.
+- Click 'Next'
 
-![Add Roles and Features](images/ad-setup/dc01-ad/01-roles-and-features.png)
+  <img width="975" height="905" alt="image" src="https://github.com/user-attachments/assets/09a0fa26-d759-4831-b007-1abe0b4177a0" />
 
-- Click through defaults until **Server Roles**.
-- Check **Active Directory Domain Services**. 
+- By default **Role-based or feature-based installation** is selected, click 'Next'.
 
-![Check AD DS](images/ad-setup/dc01-ad/02-check-ad.png)
+  <img width="975" height="849" alt="image" src="https://github.com/user-attachments/assets/b3d0abeb-3ace-425e-af00-5b4b647f0987" />
 
-- Click `Add Features`.
+- By default the server **DC01** is selected, click 'Next'
 
-![Add Features](images/ad-setup/dc01-ad/03-add-features.png)
+  <img width="975" height="862" alt="image" src="https://github.com/user-attachments/assets/443e2984-015a-415a-9d49-cb5ad27e5d4d" />
 
-- Click through remaining prompts and click `Install`. 
-  - **DO NOT CLOSE THE WINDOW!**
-  - You closed it, didn't you? I knew it! Don't worry, keep going and we'll learn how to pay attention to big bold warnings.
+- Check **Active directory Domain services**
 
-![Install](images/ad-setup/dc01-ad/04-install-ad.png)
+  <img width="975" height="932" alt="image" src="https://github.com/user-attachments/assets/30530aff-03f0-473b-8cdd-10c3b9cef7c8" />
 
-- Ignore these lies. Or don't. Your call.
+- Click 'Add Features'
 
-![Don't Close](images/ad-setup/dc01-ad/05-do-not-close.png)
+  <img width="975" height="847" alt="image" src="https://github.com/user-attachments/assets/e3a32d3d-c31c-45fe-b126-c063e810dc0f" />
+
+- Click 'Next' through remaining prompts and click `Install`.
+
+  <img width="975" height="897" alt="image" src="https://github.com/user-attachments/assets/f3e4c9a7-3ccd-4759-aa05-63a75ba5e47a" />
+
+ - Installation will begin, it may take a while to finish
+
+   <img width="975" height="897" alt="image" src="https://github.com/user-attachments/assets/daf6b720-8bb9-42f2-9c2c-1bd74c92ac44" />
 
 [🔝 Back to Top](#top)
 
