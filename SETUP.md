@@ -217,27 +217,30 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 ---
 
 ### 3. Rename DC01
-- In **Server Manager**, click on **Local Server**.
-- Click on the computer name in blue. 
-- No, not that one. 
-- What did I just say? Not the words 'Computer name', the name in blue next to that. Oh, just check the screenshot...
+- There are 2 ways you can rename the Windows server PC
+- Firstly, via **Control Panel** → **System and Security** → **System**.
+- Then click on 'Rename your PC'
 
-![Computer Name](images/network-setup/dc01-network/05-computer-name.png)
+  <img width="975" height="914" alt="image" src="https://github.com/user-attachments/assets/bbc192ce-0984-49cc-ac69-ca5ea4f4daee" />
+
+
+- Secondly, in **Server Manager**, click on **Local Server**.
+- Click on the computer name in blue.
+
+  <img width="975" height="931" alt="image" src="https://github.com/user-attachments/assets/5c835eca-68da-4163-bce5-d8272a2e9c23" />
 
 - Click `Change`.
 
-![Click Change](images/network-setup/dc01-network/06-click-change.png)
+  <img width="975" height="921" alt="image" src="https://github.com/user-attachments/assets/c4079169-6814-4dfd-886b-649da2f81ae8" />
 
 - Set Computer name to `DC01`, then click `OK`.
 
-![Rename Computer](images/network-setup/dc01-network/07-rename-computer.png)
+  <img width="975" height="927" alt="image" src="https://github.com/user-attachments/assets/7517c6c0-8829-4e52-b325-122e14154ef0" />
+
 
 - Click `OK` again.
 - Click `Close`.
 - Click `Restart Now`
-  - Yes, actually restart this time.
-
-![Restart](images/network-setup/dc01-network/08-restart.png)
 
 [🔝 Back to Top](#top)
 
