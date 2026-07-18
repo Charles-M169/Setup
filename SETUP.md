@@ -260,6 +260,11 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 
    <img width="975" height="897" alt="image" src="https://github.com/user-attachments/assets/daf6b720-8bb9-42f2-9c2c-1bd74c92ac44" />
 
+ - Once installation is complete, click 'close'
+
+   <img width="975" height="898" alt="image" src="https://github.com/user-attachments/assets/2ea7e6d3-d527-4d7b-a61b-261108defa97" />
+  
+
 [🔝 Back to Top](#top)
 
 ---
