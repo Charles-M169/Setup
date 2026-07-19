@@ -392,43 +392,73 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 
 ### Installing Windows 10
 - Power on **CLIENT01**.
-- When prompted to **Press any key to boot from CD or DVD**, press any key.
-  - **REMEMBER**: Don't be a slow-poke here!
+- When prompted to **Press any key to boot from CD or DVD**, Do not press a key.
+- Windows Setup will commence.
+- Choose 'Language to install', 'Time and currency format' and 'Keyboard or input method'.
+- Click, 'Next'
 
-![Press Any Key](images/os-installation/client01-os/01-press-any-key.png)
+  <img width="975" height="634" alt="image" src="https://github.com/user-attachments/assets/10c38ccf-f46f-4533-baa1-add9aae31d53" />
 
-- Accept the license terms, click `Next`.
-- Choose **Custom: Install Windows only (advanced)**.
+- When prompted to 'Activate Windows', I select **I do not have a product key**.
 
-![Custom Install](images/os-installation/client01-os/03-custom-install.png)
+  <img width="975" height="631" alt="image" src="https://github.com/user-attachments/assets/894b3cdb-8d49-47c0-977e-d495f6dd5622" />
 
-- Select drive and click `Next`.
+- I accept the license terms, and click 'Next'.
 
-![Select Drive](images/os-installation/client01-os/04-select-drive.png)
+  <img width="975" height="647" alt="image" src="https://github.com/user-attachments/assets/072c8c0a-75b5-443a-a95b-dee969f8b825" />
 
-- Once installed, log in.
-  - Choose **Offline Account**, **Domain Join Instead**, or **Skip** Microsoft sign-in (depending on version).
+- Choose **Custom: Install Windows only (Advanced)**
 
-![Log In](images/os-installation/client01-os/05-domain-join-instead.png)
+  <img width="975" height="633" alt="image" src="https://github.com/user-attachments/assets/e869a5f2-aa53-4a04-be4d-e89de0760604" />
 
-- Create a local user like `LabUser`.
-- Finish setup.
-- Install VMware Tools.
-  - This improves performance, mouse behavior, and screen resolution.
-  - But you knew that already, didn't you? Or did you skip a section? You rebel.
+- Select drive and click 'Next'.
 
-![Install VMware Tools](images/os-installation/client01-os/06-install-vmware-tools.png)
+  <img width="975" height="611" alt="image" src="https://github.com/user-attachments/assets/b2fa3ca7-dfc2-4d9e-9f8b-6ae6970fc75b" />
 
-  - Click `Next`.
-  - Select **Typical**, click `Next`.
+- Installation will take a while, depending on machine resources.
 
-  ![VMware Tools Typical Install](images/os-installation/client01-os/07-vmware-tools-typical.png)
+  <img width="975" height="677" alt="image" src="https://github.com/user-attachments/assets/8941b321-20bf-4618-a2bf-2385fb1e4b0f" />
 
-  - Click `Install`, then `Finish`.
-  - Click `Yes` to restart.
-    - There's a mandatory restart coming up in a few steps after you rename this computer, so you can hold off on restarting if you want to. Or can you...? (This sounds familiar, doesn't it?).
+- Once installed, you'll be promped to set up **Basic** settings
+  - Which include **Region**, **Keyboard Layout**, and **Second Keyboard**. Choose and click 'Yes'
+ 
+    <img width="975" height="805" alt="image" src="https://github.com/user-attachments/assets/3b0abb22-34af-4fc8-97ed-702d19974d81" />
 
-**You could do this in your sleep! Keep up the great work! 🎉**
+- Under **Account Settings**
+  - Choose **Set up for personal use** and when prompted to 'Add account', I choose **Offline account** and click ''Next
+ 
+    <img width="975" height="800" alt="image" src="https://github.com/user-attachments/assets/2fd014d1-a908-4959-9aec-6538c76df818" />
+
+   - Microsoft sign in/up, Ichoose **Limited experience**, then click 'Next'
+ 
+     <img width="975" height="798" alt="image" src="https://github.com/user-attachments/assets/79e3b3f2-fca7-4586-83b8-a65652bb0d21" />
+
+   - Setup a User, click 'Next'
+ 
+     <img width="975" height="802" alt="image" src="https://github.com/user-attachments/assets/847672b0-3284-494b-b66a-97bf0dd6f4a6" />
+
+   - Create a password for the user, click 'Next'.
+ 
+     <img width="975" height="803" alt="image" src="https://github.com/user-attachments/assets/1fe23ca8-9f8f-4457-842c-ddb2ddda6f0e" />
+
+   - Create security questions for the account incase we forget the password, and click 'Next'.
+ 
+     <img width="975" height="799" alt="image" src="https://github.com/user-attachments/assets/7e7ef7d2-864e-417c-9922-5d0362164bd7" />
+
+- Under **Service settings**
+  - Choose privacy settings and and clcik 'Accept'.
+ 
+    <img width="975" height="795" alt="image" src="https://github.com/user-attachments/assets/215da766-370f-49eb-b570-0344b834636f" />
+
+  - Customize the experience or skip, I 'Skip'.
+ 
+    <img width="975" height="798" alt="image" src="https://github.com/user-attachments/assets/d698b5b0-2b39-4f3a-86f9-4183a2bda5ec" />
+
+-Once done, we are logged into our Windows client machine.
+
+<img width="975" height="801" alt="image" src="https://github.com/user-attachments/assets/22ff4c10-146b-4700-8505-f68f4a92726d" />
+
+ **Windows 10 installed successfully! 🎉**
 
 [🔝 Back to Top](#top)
 
