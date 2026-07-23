@@ -423,22 +423,22 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 ## <h2 id="network-configuration-client01"> 🌐 Network Configuration </h2>
 
 ### 1. Set DNS to **DC01**
-- I am using **DC01** as our DNS.
+- I am using **DC01** as my DNS.
 - **Control Panel** → **Network and Internet** → **Network and Sharing Center** → **Change adapter settings**.
 
-![Change Adapter Settings](images/network-setup/client01-network/01-change-adapter-settings.png)
+  <img width="975" height="869" alt="image" src="https://github.com/user-attachments/assets/c1563011-a0cc-4fcf-b758-735165e1c531" />
 
 - Right-click **Ethernet1** and click `Properties`.
 
-![Ethernet1 Properties](images/network-setup/client01-network/02-ethernet1-properties.png)
+  <img width="975" height="802" alt="image" src="https://github.com/user-attachments/assets/9cc0b1c6-ddc2-4c12-944c-ffcbba39867e" />
 
 - Select **Internet Protocol Version 4**, then click `Properties`.
 
-![IPv4 Properties](images/network-setup/client01-network/03-ethernet-properties.png)
+  <img width="975" height="784" alt="image" src="https://github.com/user-attachments/assets/c0ec291e-50ef-42db-a73c-089652b9aaa1" />
 
-- Set DNS to the **DC01** IP address, `192.168.100.10`, the click `OK`.
+- Set DNS to the **DC01** IP address, `172.16.0.1`, the click `OK`.
 
-![Set DNS](images/network-setup/client01-network/04-set-dns.png)
+  <img width="975" height="782" alt="image" src="https://github.com/user-attachments/assets/d6374eea-47c4-467f-b79e-01362eadf88a" />
 
 **Keep going, you're almost there! 🎉**
 
