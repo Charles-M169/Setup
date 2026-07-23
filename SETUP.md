@@ -321,68 +321,24 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 ## <h2 id="virtual-machine-setup-client01"> 🛠️ Virtual Machine Setup </h2>
 
 ### 1. Create the virtual machine (VM).
-- Open **VMware Workstation Pro**.
-- Select **Create a New Virtual Machine**.
-  
-![Create a New Virtual Machine](images/vm-installation/client01-setup/01-create-vm.png)
-  
-- Choose **Typical (recommended)** and click `Next`.
-  
-![Typical Installation](images/vm-installation/client01-setup/02-typical-config.png)
-  
-- Select **I will install the operating system later**, then click `Next`.
-  
-![Install Later](images/vm-installation/client01-setup/03-install-os-later.png)
-  
-- **OS: Microsoft Windows** → **Version: Windows 10**.
-- Click `Next`.
+- I create the VM on VirtualBox the same way I did for DC01
+- Here is a summary of the created VM.
 
-![Select OS](images/vm-installation/client01-setup/04-select-os.png)
-  
-- Name the virtual machine **CLIENT01**, choose a save location, then click `Next`.
-
-![Name and Location](images/vm-installation/client01-setup/05-name-location.png)
-
-- Allocate **40 GB** of storage (Dynamic allocation is fine), then click `Next`.
-
-![Disk Capacity](images/vm-installation/client01-setup/06-disk-capacity.png)
-
-- Click `Customize Hardware`.
-
-![Customize Hardware](images/vm-installation/client01-setup/07-customize-hardware.png)
-
+  <img width="975" height="530" alt="image" src="https://github.com/user-attachments/assets/bfc1cfa2-18e7-4bfd-9d6e-ceee959a89b5" />
 
 [🔝 Back to Top](#top)
 
 ---
 
-### 2. Hardware Customization
-- **Memory**: 4096 MB (4GB) recommended, but the default may work fine depending on your system.
-- **Processors**: 2
+### 2. Network Adaptors for **CHARL-CLT01**
 
-<img src="images/vm-installation/client01-setup/08-ram-processor.png" alt="RAM and CPU" width="448" height="450">
-
-- **CD/DVD (SATA)**: Choose `Use ISO image file` and load your Windows 10 ISO.
-
-<img src="images/vm-installation/client01-setup/09-select-iso.png" alt="Select ISO" width="448" height="450">
-
-- **Network Adapters**:
-  - Leave the default NAT adapter.
-  - Click 'Add'.
+- Click on **CHARL-CLT01** → **Settings** → **Network** → **Adaptor 1**
+  - Change 'Attached to' from 'NAT' to **Internal Network**.
+  - Click 'Ok'.
  
-<img src="images/vm-installation/client01-setup/10-add-network.png" alt="Add Adapter" width="448" height="450">
+    <img width="975" height="799" alt="image" src="https://github.com/user-attachments/assets/f585ade7-d685-4e0c-a103-0bbcc7410469" />
 
-  - Select **Network Adapter**, then click `Finish`.
-
-![Select Adapter](images/vm-installation/client01-setup/11-select-second-adapter.png)
-
-  - Select **Host-only: A private network shared with the host**, then click `Close`
-
-<img src="images/vm-installation/client01-setup/12-hostonly-adapter.png" alt="Host Only Adapter" width="448" height="450">
-
-- Click `Finish`.
-
-**That's TWO virtual machines ready to go. Nicely done! 🎉**
+**That's TWO virtual machines ready to go! 🎉**
 
 [🔝 Back to Top](#top)
 
@@ -391,7 +347,7 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 ## <h2 id="windows-os-installation-client01"> 💽 Windows OS Installation </h2>
 
 ### Installing Windows 10
-- Power on **CLIENT01**.
+- Power on **CHARL-CL01**.
 - When prompted to **Press any key to boot from CD or DVD**, Do not press a key.
 - Windows Setup will commence.
 - Choose 'Language to install', 'Time and currency format' and 'Keyboard or input method'.
@@ -467,7 +423,7 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 ## <h2 id="network-configuration-client01"> 🌐 Network Configuration </h2>
 
 ### 1. Set DNS to **DC01**
-- We're using **DC01** as our DNS.
+- I am using **DC01** as our DNS.
 - **Control Panel** → **Network and Internet** → **Network and Sharing Center** → **Change adapter settings**.
 
 ![Change Adapter Settings](images/network-setup/client01-network/01-change-adapter-settings.png)
