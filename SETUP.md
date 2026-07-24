@@ -452,24 +452,15 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 - **Control Panel** → **System** → **Rename This PC (advanced)**.
   - **System** may sometimes be **About** depending on Windows version.
 
-![System Settings](images/ad-setup/client01-ad/01-system-settings.png)
+  <img width="975" height="809" alt="image" src="https://github.com/user-attachments/assets/2c3fd1df-4c26-4a4f-97c6-2da90ced1964" />
 
-- Click `Change`.
+- Rename to **CHARL-CLT01**, then click `Next`.
 
-![System Properties](images/ad-setup/client01-ad/02-system-properties.png)
+  <img width="975" height="795" alt="image" src="https://github.com/user-attachments/assets/ace4dfde-ed7e-4c6f-ac55-242f53e0612a" />
 
-- Rename to **CLIENT01**, then click `OK`.
-
-![Rename Computer](images/ad-setup/client01-ad/03-change-name.png)
-
-- Click `OK`.
-
-![Restart Now](images/ad-setup/client01-ad/04-restart.png)
-
-- Close **System Properties**
 - Click `Restart Now`
 
-![Restart Now](images/ad-setup/client01-ad/05-restart-now.png)
+  <img width="975" height="797" alt="image" src="https://github.com/user-attachments/assets/723275b7-2810-4d7f-982b-c0b60a8c2812" />
 
 [🔝 Back to Top](#top)
 
