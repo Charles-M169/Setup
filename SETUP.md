@@ -310,6 +310,9 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 
   <img width="975" height="959" alt="image" src="https://github.com/user-attachments/assets/50d8c764-61b9-431f-9a45-5ebbf54f866c" />
 
+### 5. Add RAS/NAT
+ - 
+
 **Domain controller successfully created! 🎉**
 
 [🔝 Back to Top](#top)
