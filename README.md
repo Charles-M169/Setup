@@ -84,8 +84,36 @@ Let’s create one user for each department.
 
 <img width="975" height="763" alt="image" src="https://github.com/user-attachments/assets/17c52b9b-b340-404b-8cfd-28f5b60fd2e1" />
 
+6. Repeat for the `_HR` OU, Use these details:
+   - **First name**: `Kagiso`
+   - **Last name**: `Mohlala`
+   - **User logon name**: `Kagiso.M`
+7. Click `Next`.
 
-6. Making this account a 'Domain admin'
+   <img width="975" height="743" alt="image" src="https://github.com/user-attachments/assets/4233b616-e237-4d13-a912-7e0d2bbe5ec9" />
+
+8. Set a password.
+   - Don't forget this one. Maybe write it down this time...
+   - I uncheck “User must change password at next logon” and check "Password never expires".
+9. Click `Next`, then click `Finish`.
+
+   <img width="975" height="786" alt="image" src="https://github.com/user-attachments/assets/0d38bca6-61bd-4eae-a77a-df810c3693e5" />
+
+10. Repeat for the 'ITSupport' OU, Use these details:
+   - **First name**: `John`
+   - **Last name**: `Kekana`
+   - **User logon name**: `John.k`
+11. Click `Next`.
+
+   <img width="975" height="785" alt="image" src="https://github.com/user-attachments/assets/ed11e024-240a-4662-aa27-e9ca7e566343" />
+
+12. Set a password.
+   - I uncheck “User must change password at next logon” and check "Password never expires".
+13. Click `Next`, then click `Finish`.
+
+   <img width="975" height="785" alt="image" src="https://github.com/user-attachments/assets/821e42d1-c21a-46b1-a980-aeccc162e1e5" />
+
+14. Making this account a 'Domain admin'
    - Right click on the user 'Charles Matsimela'
    - Select 'Properties'
      
@@ -104,20 +132,6 @@ Let’s create one user for each department.
    - Then 'Apply' and finilly click 'Ok'
      
      <img width="975" height="815" alt="image" src="https://github.com/user-attachments/assets/514d8424-c8ef-4b54-9fa4-2ee4cd870b39" />
-
-7. Repeat for the `ITSupport` OU:
-
-![New HR User](images/ad-tasks/user/05-new-itsupport-user.png)
-
-7. Use these details:
-   - **First name**: `Jane`
-   - **Last name**: `Doe`
-   - **User logon name**: `jdoe`
-8. Click `Next`.
-
-![Jane Doe](images/ad-tasks/user/06-jdoe.png)
-
-![Set Password](images/ad-tasks/user/07-jdoe-pass.png)
 
 🎉 Way to go Neo. You've just mastered creating new users in Active Directory!
 
