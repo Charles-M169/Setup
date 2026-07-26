@@ -145,7 +145,7 @@ Groups are used to manage permissions or apply policies to multiple users at onc
 
 1. In **Active Directory Users and Computers**, right-click `_Admins` → **New** → **Group**.
 
-<img width="975" height="762" alt="image" src="https://github.com/user-attachments/assets/bc1089a1-e624-4e8a-8178-298a95bf44e4" />
+<img width="975" height="784" alt="image" src="https://github.com/user-attachments/assets/9facee03-cd0c-4b4b-9842-0dff2e88e0bd" />
 
 2. Use these details:
    - Group name: `Domain Admins`
