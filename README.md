@@ -64,25 +64,46 @@ OUs (Organizational Units) help organize users, groups, and computers into logic
 
 Let’s create one user for each department.
 
-1. In **Active Directory Users and Computers**, right-click `HR` → **New** → **User**.
-   - 💡 **Tip**: Remember, you can also left click `HR` and right-click in the detail window to bring up the menu. I'll stop pestering you with reminders going forward. 
+1. In **Active Directory Users and Computers**, right-click `_Admins` → **New** → **User**.
+   - 💡 **Tip**: We can also left click `_Admins` and right-click in the detail window to bring up the menu. I'll stop pestering you with reminders going forward. 
 
-![New HR User](images/ad-tasks/user/01-new-hr-user.png)
+<img width="975" height="688" alt="image" src="https://github.com/user-attachments/assets/761bdeea-7bbd-430c-bc72-68a8b2beaa0e" />
 
 2. Use these details:
-   - **First name**: `John`
-   - **Last name**: `Smith`
-   - **User logon name**: `jsmith`
+   - **First name**: `Charles`
+   - **Last name**: `Matsimela`
+   - **User logon name**: `Charles.M`
 3. Click `Next`.
 
-![John Smith](images/ad-tasks/user/02-jsmith.png)
+<img width="975" height="733" alt="image" src="https://github.com/user-attachments/assets/3187fc08-762a-474b-9d81-7da559d834cb" />
 
-4. Set a password.
+4. Making this account a 'Domain admin'
+   - Right click on the user 'Charles Matsimela'
+   - Select 'Properties'
+     
+     <img width="949" height="734" alt="image" src="https://github.com/user-attachments/assets/1a9ecbaa-b85e-42f2-863a-a33cb196f41a" />
+
+   - Click 'Member of'
+     
+     <img width="975" height="853" alt="image" src="https://github.com/user-attachments/assets/318f0700-cf73-480a-ab7b-08150202450a" />
+
+   - Click 'Add'
+   - Under **Object names to select (examples)** type: 'domain admin' and click 'Check Names'
+   - Click 'Ok'
+     
+     <img width="975" height="916" alt="image" src="https://github.com/user-attachments/assets/8031a79d-20e5-4ba4-8989-706cb0cbc3fc" />
+
+   - Then 'Apply' and finilly click 'Ok'
+     
+     <img width="975" height="815" alt="image" src="https://github.com/user-attachments/assets/514d8424-c8ef-4b54-9fa4-2ee4cd870b39" />
+
+
+5. Set a password.
    - Don't forget this one. Maybe write it down this time...
-   - 🔒 **Best practice**: Leave “User must change password at next logon” checked. This is a security habit used in real-world environments. For *lab* purposes, however, you're the boss. 
+   - 🔒 **Best practice**: Leave “User must change password at next logon” checked. This is a security habit used in real-world environments.
 5. Click `Next`, then click `Finish`.
 
-![Set Password](images/ad-tasks/user/03-jsmith-pass.png)
+<img width="975" height="763" alt="image" src="https://github.com/user-attachments/assets/17c52b9b-b340-404b-8cfd-28f5b60fd2e1" />
 
 6. Repeat for the `ITSupport` OU:
 
