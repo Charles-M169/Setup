@@ -77,7 +77,15 @@ Let’s create one user for each department.
 
 <img width="975" height="733" alt="image" src="https://github.com/user-attachments/assets/3187fc08-762a-474b-9d81-7da559d834cb" />
 
-4. Making this account a 'Domain admin'
+4. Set a password.
+   - Don't forget this one. Maybe write it down this time...
+   - 🔒 **Best practice**: Leave “User must change password at next logon” checked. This is a security habit used in real-world environments.
+5. Click `Next`, then click `Finish`.
+
+<img width="975" height="763" alt="image" src="https://github.com/user-attachments/assets/17c52b9b-b340-404b-8cfd-28f5b60fd2e1" />
+
+
+6. Making this account a 'Domain admin'
    - Right click on the user 'Charles Matsimela'
    - Select 'Properties'
      
@@ -97,15 +105,7 @@ Let’s create one user for each department.
      
      <img width="975" height="815" alt="image" src="https://github.com/user-attachments/assets/514d8424-c8ef-4b54-9fa4-2ee4cd870b39" />
 
-
-5. Set a password.
-   - Don't forget this one. Maybe write it down this time...
-   - 🔒 **Best practice**: Leave “User must change password at next logon” checked. This is a security habit used in real-world environments.
-5. Click `Next`, then click `Finish`.
-
-<img width="975" height="763" alt="image" src="https://github.com/user-attachments/assets/17c52b9b-b340-404b-8cfd-28f5b60fd2e1" />
-
-6. Repeat for the `ITSupport` OU:
+7. Repeat for the `ITSupport` OU:
 
 ![New HR User](images/ad-tasks/user/05-new-itsupport-user.png)
 
