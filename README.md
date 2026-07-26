@@ -25,34 +25,36 @@ This walkthrough assumes **zero Active Directory experience** (like I had before
 OUs (Organizational Units) help organize users, groups, and computers into logical containers. You’ll start by creating two OUs: one for IT Support and one for HR.
 
 1. Open **Server Manager** → **Tools** → **Active Directory Users and Computers**.
+   or **Start** → **Windows Administrative Tools** → **Active Directory Users and Computers**
 
-![Users and Computers](images/ad-tasks/ou/01-create-ou.png)
+<img width="975" height="958" alt="image" src="https://github.com/user-attachments/assets/1460e80a-ed54-4a4e-970f-3c34b2bb12ba" />
 
-2. In the left panel, expand your domain (`corp.local`).
-3. Right-click `corp.local` → **New** → **Organizational Unit**.
+2. In the left panel, expand your domain (`charl.com`).
+3. Right-click `charl.com` → **New** → **Organizational Unit**.
 
-![New OU](images/ad-tasks/ou/02-new-ou.png)
+<img width="975" height="968" alt="image" src="https://github.com/user-attachments/assets/8d06be15-352a-4f70-8c4b-da067df88236" />
 
-4. Name it: `Departments`, and click OK.
-   - 🔒 **Best practice**: Leave **"Protect container from accidental deletion"** checked. For *lab* purposes, however, you're the boss.
+4. Name it: `_Admins`, and click OK.
+   - 🔒 **Best practice**: Leave **"Protect container from accidental deletion"** checked. For *lab* purposes, I uncheck it.
 
-![Departments OU](images/ad-tasks/ou/03-departments.png)
+<img width="975" height="990" alt="image" src="https://github.com/user-attachments/assets/9def0b46-b8aa-48b2-84e4-e37b98e87b4d" />
 
 5. Right-click `Departments` → **New** → **Organizational Unit** again.
    - 💡 **Tip**: You can also left click `Departments` and right-click in the detail window to bring up the menu. I'll show you in the screenshot.
 
-![New OU, again](images/ad-tasks/ou/04-department-ou.png)
+<img width="975" height="1014" alt="image" src="https://github.com/user-attachments/assets/f8cf0288-e7c9-45de-99d0-3412eac53ee5" />
 
 6. Use this process to create two sub-OUs:
-   - `HR` (everyone's favorite...)
-   - `ITSupport` (should be everyone's favorite)
+   - '_Admins'
+   - `_HR'
+   - `_ITSupport`
 
 <p float="left">
-  <img src="images/ad-tasks/ou/05-department-hr.png" alt="HR Sub-OU" width="400" />
-  <img src="images/ad-tasks/ou/06-department-itsupport.png" alt="ITSupport Sub-OU" width="400" />   
-</p>
+  <img width="975" height="836" alt="image" src="https://github.com/user-attachments/assets/b9cf896b-6e40-43e0-ab72-2700c064db31" />
+  <img width="975" height="835" alt="image" src="https://github.com/user-attachments/assets/74461c96-9d66-41bc-a40c-4f1237214673" />
+  <img width="975" height="734" alt="image" src="https://github.com/user-attachments/assets/8726788d-6b42-4c1a-ba29-02ed7e6c90ab" />
 
-🎉 You now have a clean structure for organizing your user accounts and departments.
+🎉 We have a clean structure for organizing your user accounts and departments.
 
 [🔝 Back to Top](#top)
 
