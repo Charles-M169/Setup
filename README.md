@@ -143,21 +143,33 @@ Let’s create one user for each department.
 
 Groups are used to manage permissions or apply policies to multiple users at once. Let's create some groups!
 
-1. In **Active Directory Users and Computers**, right-click `HR` → **New** → **Group**.
+1. In **Active Directory Users and Computers**, right-click `_Admins` → **New** → **Group**.
 
-![New HR Group](images/ad-tasks/groups/01-new-hr-group.png)
+<img width="975" height="762" alt="image" src="https://github.com/user-attachments/assets/bc1089a1-e624-4e8a-8178-298a95bf44e4" />
 
 2. Use these details:
-   - Group name: `Managers`
+   - Group name: `Domain Admins`
    - Group scope: `Global`
    - Group type: `Security`
 4. Click `OK`.
 
-![Managers Group](images/ad-tasks/groups/02-name-managers-group.png)
+<img width="975" height="786" alt="image" src="https://github.com/user-attachments/assets/2791c1df-7b11-4824-890c-a8dd36cb1433" />
 
-🧑‍💻 Repeat for `ITSupport`:
+🧑‍💻 Repeat for `_HR`:
 
-![New HR Group](images/ad-tasks/groups/03-new-itsupport-group.png)
+<img width="975" height="742" alt="image" src="https://github.com/user-attachments/assets/6421d4ac-0559-4e1f-a439-775f51480f39" />
+
+- Use these details:
+   - Group name: `Manager`
+   - Group scope: `Global`
+   - Group type: `Security`
+- Click `OK`.
+
+<img width="975" height="755" alt="image" src="https://github.com/user-attachments/assets/a43117a0-b135-4e1f-b983-6a90d17b9201" />
+
+🧑‍💻 Repeat for `_ITSupport`:
+
+<img width="975" height="721" alt="image" src="https://github.com/user-attachments/assets/c81cb9e7-8aac-4945-b569-02268d7e62c0" />
 
 - Use these details:
    - Group name: `HelpDesk`
@@ -165,7 +177,8 @@ Groups are used to manage permissions or apply policies to multiple users at onc
    - Group type: `Security`
 - Click `OK`.
 
-![Managers Group](images/ad-tasks/groups/04-name-helpdesk-group.png)
+<img width="975" height="776" alt="image" src="https://github.com/user-attachments/assets/93c7fcc6-0af7-4598-a81c-44818f03ded9" />
+
 
 🎉 It's starting to look like you know what you're doing! I'm sure glad one of us does...
 
