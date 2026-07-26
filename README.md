@@ -129,10 +129,6 @@ Let’s create one user for each department.
      
      <img width="975" height="916" alt="image" src="https://github.com/user-attachments/assets/8031a79d-20e5-4ba4-8989-706cb0cbc3fc" />
 
-   - Then 'Apply' and finilly click 'Ok'
-     
-     <img width="975" height="815" alt="image" src="https://github.com/user-attachments/assets/514d8424-c8ef-4b54-9fa4-2ee4cd870b39" />
-
 🎉 Way to go Neo. You've just mastered creating new users in Active Directory!
 
 [🔝 Back to Top](#top)
@@ -190,35 +186,53 @@ Groups are used to manage permissions or apply policies to multiple users at onc
 
 Let’s assign our users to their department groups.
 
-1. Still in **Active Directory Users and Computers**, double-click `jsmith` in the `HR` OU.
+1. Still in **Active Directory Users and Computers**, double-click `Charles.M` in the `_Admin` OU.
 
-![Double Clicky](images/ad-tasks/groups/05-double-click-jsmith.png)
+<img width="975" height="734" alt="image" src="https://github.com/user-attachments/assets/57fbfecb-1145-4ef7-adde-2cf1d3b64982" />
 
-2. Go to the **Member Of** tab, then click `Add...`
+  - Go to the **Member Of** tab, then click `Add...`
 
-![Member Of Tab](images/ad-tasks/groups/06-member-of-tab.png)
+    <img width="975" height="769" alt="image" src="https://github.com/user-attachments/assets/43b4fe3d-0b2c-458c-b336-b3dc4ca6b5be" />
 
-3. Type `Managers`, click `Check Names`, then click `OK`.
+   - Type `Domain Admins`, click `Check Names`, then click `OK`.
 
-![Check Name: Managers](images/ad-tasks/groups/07-managers-check-names.png)
+     <img width="975" height="916" alt="image" src="https://github.com/user-attachments/assets/72c24394-d496-4d5c-9a85-21addb27c1eb" />
 
-![Name Checked: Managers](images/ad-tasks/groups/08-managers-ok.png)
+   - Click `OK` to close **Charles Matsimela Properties** window.
 
-4. Click `OK` to close **John Smith Properties** window.
+     <img width="975" height="815" alt="image" src="https://github.com/user-attachments/assets/40ad12f1-5911-42a4-adf4-0b85b2782042" />
 
-![Close Properties](images/ad-tasks/groups/09-close-jsmith-properties.png)
+2. 🧑‍💻 Do the same for `Kagiso.M` in `_HR`:
 
-🧑‍💻 Do the same for `jdoe` in `ITSupport`:
+   <img width="958" height="781" alt="image" src="https://github.com/user-attachments/assets/0f9972cb-2a76-4aa1-aadb-d4c9daaf80cf" />
 
-![Double Clicky](images/ad-tasks/groups/10-double-click-jdoe.png)
+   <img width="975" height="944" alt="image" src="https://github.com/user-attachments/assets/5fd29f1a-9416-4e55-8b31-21b16cfb6ca3" />
 
-![Member Of Tab](images/ad-tasks/groups/11-member-of-tab.png)
+  - Add `Kagiso.M` to `Manager`.
 
-- Add `jdoe` to `HelpDesk`.
+    <img width="975" height="759" alt="image" src="https://github.com/user-attachments/assets/cb6c7f23-90d9-40ce-aef6-605cbb83e115" />
 
-![Check Name: Managers](images/ad-tasks/groups/12-helpdesk-check-names.png)
+    <img width="975" height="900" alt="image" src="https://github.com/user-attachments/assets/04fdefb8-926d-4638-bc01-056ca2a14d82" />
 
-![Name Checked: Managers](images/ad-tasks/groups/13-helpdesk-ok.png)
+  - Then 'Apply' and finilly click 'Ok'
+     
+  <img width="975" height="968" alt="image" src="https://github.com/user-attachments/assets/3297a445-af14-4be1-a7ed-d3113d655ea2" />
+
+3. 🧑‍💻 Do the same for `John.K` in `ITSupport`:
+
+   <img width="975" height="709" alt="image" src="https://github.com/user-attachments/assets/d64672c5-c688-4336-a9dc-60c775d3c604" />
+
+   <img width="975" height="958" alt="image" src="https://github.com/user-attachments/assets/8f40f555-0791-4382-854f-a88ac01a34d5" />
+
+  - Add `John.K` to `HelpDesk`.
+
+    <img width="975" height="872" alt="image" src="https://github.com/user-attachments/assets/daaeb0ff-21ef-40d8-8378-3aab4d0ba592" />
+    
+    <img width="975" height="827" alt="image" src="https://github.com/user-attachments/assets/99fd5712-cf0e-4125-8af2-ead37aead67f" />
+
+  - Then click 'Apply' and finilly click 'Ok'
+     
+    <img width="975" height="1014" alt="image" src="https://github.com/user-attachments/assets/0138a995-d629-4ed1-aa67-99f022b09b3d" />
 
 🎉 Now we're cookin'. Keep up the great work, we're almost done!
 
