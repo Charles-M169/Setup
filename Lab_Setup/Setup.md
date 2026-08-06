@@ -69,14 +69,6 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 
 ---
 
-
-
-**First virtual machine has been created🎉**
-
-[🔝 Back to Top](#top)
-
----
-
 ## <h2 id="windows-server-2025-installation-dc01"> 💽 Windows Sever 2025 Installation </h2>
 
 ### Installing Windows Server 2025
@@ -141,41 +133,7 @@ This is a step-by-step guide for building Active Directory lab from scratch usin
 
 ---
 
-## <h2 id="network-and-ad-configuration-dc01"> 🌐 Network & AD Configuration </h2>
 
-### 1. Renaming adaptors
-- **Control Panel** → **Network and Internet** → **Network and Sharing Center** → **Change adapter settings**.
-
-  <img width="975" height="549" alt="image" src="https://github.com/user-attachments/assets/27870879-ebff-412f-acd1-8a67825ef982" />
-
-- Run ipconfig on CMD to confirm the adaptor s as to which belongs to 'NAT adaptor' and which to 'Internal network adaptor'.
-- Ethernet 1: This belongs to 'NAT' adaptor
-- Ethernet 2: This belongs to 'Internal Network' adaptor
-
-  <img width="975" height="444" alt="image" src="https://github.com/user-attachments/assets/94720d2a-6eb2-41ab-b473-0a23f9b6f108" />
-
-- I rename 'Ethernet 1' to **'_INTERNET'** and 'Ethernet 2' to **'ÇHARL_NAT'**
-
-  <img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/0797e2d8-debe-4940-b840-86a1d5a66dbd" />
-
-### 2. Set Static IP on DC01 (CHARL_NAT)
-- **Control Panel** → **Network and Internet** → **Network and Sharing Center** → **Change adapter settings**.
-
-  <img width="975" height="545" alt="image" src="https://github.com/user-attachments/assets/b3828aaa-deda-4e83-b6a9-5587cd52b037" />
-
-- Right-click **CHARL_NAT** and click `Properties`.
-
-  <img width="975" height="526" alt="image" src="https://github.com/user-attachments/assets/e9c242cb-c592-4ff1-b1a5-88c9cfd480fd" />
-
-- Select **Internet Protocol Version 4**, then click `Properties`.
-- Use the following:
-  - IP: `172.16.0.1`
-  - Subnet: `255.255.255.0`
-  - Gateway: (leave blank)
-  - DNS: `127.0.0.1`
-- Click `OK`.
- 
-  <img width="975" height="500" alt="image" src="https://github.com/user-attachments/assets/d6d9fb63-bfd2-4873-b91f-8c728cd4170d" />
 
 [🔝 Back to Top](#top)
 
