@@ -1,4 +1,22 @@
-### 2. Network Adaptors
+## <h2 id="table-of-contents"> 🗂️ Table of Contents </h2>
+
+- [Network Setings (DC01)](#network-settings-for-DC01)
+  - [🛠️ Network Adaptors on VirtualBox for DC01](#network-adaptors-on-virtualBox-for-dc01)
+  - [💽 Windows Server 2025 Installation](#windows-server-2025-installation-dc01)
+  - [🌐 Network and AD Configuration](#network-and-ad-configuration-dc01)
+- [Client Machine (CLIENT01)](#client-machine-client01)
+  - [🛠️ Virtual Machine Setup](#virtual-machine-setup-client01)
+  - [💽 Windows OS Installation](#windows-os-installation-client01)
+  - [🌐 Network Configuration](#network-configuration-client01)
+  - [🧑‍💻 Join CLIENT01 to the Domain](#join-client01-to-the-domain)
+- [✅ Final Check](#final-check)
+- [📦 Wrapping Up](#wrapping-up)
+- [🧠 Tips](#tips)
+- [📦 What’s Next?](#whats-next)
+- [💬 Questions or Feedback?](#questions-or-feedback)
+
+## <h2 id="network-settings-for-DC01"> 🌐 Network Adaptors setting </h2>
+### 1. Network Adaptors on VirtualBox for DC01
 
 - Click **Settings** at the top and select **Network**
 
