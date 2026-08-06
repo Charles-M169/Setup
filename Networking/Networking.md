@@ -52,3 +52,28 @@
 - Click `OK`.
  
   <img width="975" height="500" alt="image" src="https://github.com/user-attachments/assets/d6d9fb63-bfd2-4873-b91f-8c728cd4170d" />
+
+...
+
+
+## <h2 id="network-configuration-client01"> 🌐 Network Configuration </h2>
+
+### 1. Set DNS to **DC01**
+- I am using **DC01** as my DNS.
+- **Control Panel** → **Network and Internet** → **Network and Sharing Center** → **Change adapter settings**.
+
+  <img width="975" height="869" alt="image" src="https://github.com/user-attachments/assets/c1563011-a0cc-4fcf-b758-735165e1c531" />
+
+- Right-click **Ethernet1** and click `Properties`.
+
+  <img width="975" height="802" alt="image" src="https://github.com/user-attachments/assets/9cc0b1c6-ddc2-4c12-944c-ffcbba39867e" />
+
+- Select **Internet Protocol Version 4**, then click `Properties`.
+
+  <img width="975" height="784" alt="image" src="https://github.com/user-attachments/assets/c0ec291e-50ef-42db-a73c-089652b9aaa1" />
+
+- Set DNS to the **DC01** IP address, `172.16.0.1`, the click `OK`.
+
+  <img width="975" height="782" alt="image" src="https://github.com/user-attachments/assets/d6374eea-47c4-467f-b79e-01362eadf88a" />
+
+**Keep going, you're almost there! 🎉**
