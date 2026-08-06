@@ -2,7 +2,7 @@
 
 - [Network Setings (DC01)](#network-settings-for-DC01)
   - [🛠️ Network Adaptors on VirtualBox for DC01](#network-adaptors-on-virtualBox-for-dc01)
-  - [💽 Windows Server 2025 Installation](#windows-server-2025-installation-dc01)
+  - [💽 Renaming and configuring network adaptos on DC01](#renaming-and-configuring-network-on-dc01)
   - [🌐 Network and AD Configuration](#network-and-ad-configuration-dc01)
 - [Client Machine (CLIENT01)](#client-machine-client01)
   - [🛠️ Virtual Machine Setup](#virtual-machine-setup-client01)
@@ -36,7 +36,7 @@
 
 ....
 
-## <h2 id="network-and-ad-configuration-dc01"> 🌐 Network & AD Configuration </h2>
+## <h2 id="renaming-and-configuring-network-on-dc01"> 🌐 Renaming and configuring network adaptos on DC01 </h2>
 
 ### 1. Renaming adaptors
 - **Control Panel** → **Network and Internet** → **Network and Sharing Center** → **Change adapter settings**.
