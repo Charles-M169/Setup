@@ -3,7 +3,7 @@
 - [Network Setings (DC01)](#network-settings-for-DC01)
   - [🛠️ Network Adaptors on VirtualBox for DC01](#network-adaptors-on-virtualBox-for-dc01)
   - [💽 Renaming and configuring network adaptos on DC01](#renaming-and-configuring-network-on-dc01)
-  - [🌐 Network and AD Configuration](#network-and-ad-configuration-dc01)
+  - [🌐 Network Adaptors on VirtualBox for CHARL-CLT01](#network-adaptors-on-virtualBox-for-'charl-cl01')
 - [Client Machine (CLIENT01)](#client-machine-client01)
   - [🛠️ Virtual Machine Setup](#virtual-machine-setup-client01)
   - [💽 Windows OS Installation](#windows-os-installation-client01)
@@ -34,7 +34,7 @@
 
 <img width="975" height="703" alt="image" src="https://github.com/user-attachments/assets/a25d8e5b-6913-4871-bb67-3da864886d1b" />
 
-....
+...
 
 ## <h2 id="renaming-and-configuring-network-on-dc01"> 🌐 Renaming and configuring network adaptos on DC01 </h2>
 
@@ -74,7 +74,16 @@
 
 ...
 
+## <h2 id="network-adaptors-on-virtualBox-for-'charl-cl01'"> 🌐 Network Adaptors on VirtualBox for CHARL-CLT01 </h2>
 
+### 2. Network Adaptors for **CHARL-CLT01**
+
+- Click on **CHARL-CLT01** → **Settings** → **Network** → **Adaptor 1**
+  - Change 'Attached to' from 'NAT' to **Internal Network**.
+  - Click 'Ok'.
+ 
+    <img width="975" height="799" alt="image" src="https://github.com/user-attachments/assets/f585ade7-d685-4e0c-a103-0bbcc7410469" />
+...
 ## <h2 id="network-configuration-client01"> 🌐 Network Configuration </h2>
 
 ### 1. Set DNS to **DC01**
