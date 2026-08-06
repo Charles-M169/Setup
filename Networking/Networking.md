@@ -15,7 +15,8 @@
 - [📦 What’s Next?](#whats-next)
 - [💬 Questions or Feedback?](#questions-or-feedback)
 
-## <h2 id="network-settings-for-DC01"> 🌐 Network Adaptors setting </h2>
+## <h2 id="network-settings-for-DC01"> 🛠️ Network Adaptors setting </h2>
+## <h2 id="network-adaptors-on-virtualBox-for-DC01"> 🌐 Network Adaptors on VirtualBox for DC01 </h2>
 ### 1. Network Adaptors on VirtualBox for DC01
 
 - Click **Settings** at the top and select **Network**
