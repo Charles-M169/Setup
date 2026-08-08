@@ -7,8 +7,7 @@
 - [Network Setings for CHARL-CLT01](#network-settings-for-'charl-clt01')
   - [🛠️ Network Adaptors on VirtualBox for CHARL-CLT01](#network-adaptors-on-virtualBox-for-'charl-cl01')
   - [🌐 Renaming and configuring network adaptos on CHARL-CLT01](#renaming-and-configuring-network-on-'charl-clt01')
-  - [🌐 Network Configuration](#network-configuration-client01)
-  - [🧑‍💻 Join CLIENT01 to the Domain](#join-client01-to-the-domain)
+
 - [✅ Final Check](#final-check)
 - [📦 Wrapping Up](#wrapping-up)
 - [🧠 Tips](#tips)
@@ -20,7 +19,6 @@
 ### 1. Network Adaptors on VirtualBox for DC01
 
 - Click **Settings** at the top and select **Network**
-
 - **Adaptor 1**:
   - Leave the default NAT adapter.
  
@@ -33,8 +31,6 @@
   - Leave everything as it is and click 'Finish'
 
 <img width="975" height="703" alt="image" src="https://github.com/user-attachments/assets/a25d8e5b-6913-4871-bb67-3da864886d1b" />
-
-...
 
 ## <h2 id="renaming-and-configuring-network-on-dc01"> 🌐 Renaming and configuring network adaptos on DC01 </h2>
 
@@ -72,9 +68,7 @@
  
   <img width="975" height="500" alt="image" src="https://github.com/user-attachments/assets/d6d9fb63-bfd2-4873-b91f-8c728cd4170d" />
 
-...
-
-## ## <h2 id="network-settings-for-'charl-clt01'"> 🛠️ Network Setting for CHARL-CLT01</h2>
+## <h2 id="network-settings-for-'charl-clt01'"> 🛠️ Network Setting for CHARL-CLT01</h2>
 ## <h2 id="network-adaptors-on-virtualBox-for-'charl-cl01'"> 🌐 Network Adaptors on VirtualBox for CHARL-CLT01 </h2>
 
 ### 1. Network Adaptors for **CHARL-CLT01**
@@ -84,9 +78,8 @@
   - Click 'Ok'.
  
     <img width="975" height="799" alt="image" src="https://github.com/user-attachments/assets/f585ade7-d685-4e0c-a103-0bbcc7410469" />
-...
-## <h2 id="network-configuration-client01"> 🌐 Network Configuration </h2>
 
+## <h2 id="renaming-and-configuring-network-on-'charl-clt01'"> 🌐 Renaming and configuring network adaptos on CHARL-CLT01 </h2>
 ### 1. Set DNS to **DC01**
 - I am using **DC01** as my DNS.
 - **Control Panel** → **Network and Internet** → **Network and Sharing Center** → **Change adapter settings**.
@@ -104,5 +97,3 @@
 - Set DNS to the **DC01** IP address, `172.16.0.1`, the click `OK`.
 
   <img width="975" height="782" alt="image" src="https://github.com/user-attachments/assets/d6374eea-47c4-467f-b79e-01362eadf88a" />
-
-**Keep going, you're almost there! 🎉**
