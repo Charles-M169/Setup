@@ -4,7 +4,7 @@
   - [🛠️ Network Adaptors on VirtualBox for DC01](#network-adaptors-on-virtualBox-for-dc01)
   - [🌐 Renaming and configuring network adaptos on DC01](#renaming-and-configuring-network-on-dc01)
   
-- [Network Setings for CHARL-CLT01](#network-settings-for-'CHARL-CLT01')
+- [Network Setings for CHARL-CLT01](#network-settings-for-'charl-clt01')
   - [🛠️ Network Adaptors on VirtualBox for CHARL-CLT01](#network-adaptors-on-virtualBox-for-'charl-cl01')
   - [🌐 Renaming and configuring network adaptos on CHARL-CLT01](#renaming-and-configuring-network-on-'charl-clt01')
   - [🌐 Network Configuration](#network-configuration-client01)
