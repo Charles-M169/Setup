@@ -4,7 +4,7 @@
   - [🛠️ Network Adaptors on VirtualBox for DC01](#network-adaptors-on-virtualBox-for-dc01)
   - [🌐 Renaming and configuring network adaptos on DC01](#renaming-and-configuring-network-on-dc01)
   
-- [Network Setings (DC01)](#network-settings-for-'CHARL-CLT01')
+- [Network Setings (CHARL-CLT01)](#network-settings-for-'CHARL-CLT01')
   - [🛠️ Network Adaptors on VirtualBox for CHARL-CLT01](#network-adaptors-on-virtualBox-for-'charl-cl01')
   - [🌐 Renaming and configuring network adaptos on CHARL-CLT01](#renaming-and-configuring-network-on-'charl-clt01')
   - [🌐 Network Configuration](#network-configuration-client01)
@@ -74,9 +74,10 @@
 
 ...
 
+## <h2 id="network-setings-'charl-clt01'"> Network Setings CHARL-CLT01 </h2>
 ## <h2 id="network-adaptors-on-virtualBox-for-'charl-cl01'"> 🌐 Network Adaptors on VirtualBox for CHARL-CLT01 </h2>
 
-### 2. Network Adaptors for **CHARL-CLT01**
+### 1. Network Adaptors for **CHARL-CLT01**
 
 - Click on **CHARL-CLT01** → **Settings** → **Network** → **Adaptor 1**
   - Change 'Attached to' from 'NAT' to **Internal Network**.
