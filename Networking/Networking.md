@@ -74,7 +74,7 @@
 
 ...
 
-## <h2 id="network-setings-'charl-clt01'"> Network Setings CHARL-CLT01 </h2>
+## ## <h2 id="network-settings-for-'charl-clt01'"> 🛠️ Network Setting for CHARL-CLT01</h2>
 ## <h2 id="network-adaptors-on-virtualBox-for-'charl-cl01'"> 🌐 Network Adaptors on VirtualBox for CHARL-CLT01 </h2>
 
 ### 1. Network Adaptors for **CHARL-CLT01**
