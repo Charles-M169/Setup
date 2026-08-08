@@ -1,10 +1,10 @@
 ## <h2 id="table-of-contents"> 🗂️ Table of Contents </h2>
 
-- [Network Setings (DC01)](#network-settings-for-DC01)
+- [Network Setings for DC01](#network-settings-for-DC01)
   - [🛠️ Network Adaptors on VirtualBox for DC01](#network-adaptors-on-virtualBox-for-dc01)
   - [🌐 Renaming and configuring network adaptos on DC01](#renaming-and-configuring-network-on-dc01)
   
-- [Network Setings (CHARL-CLT01)](#network-settings-for-'CHARL-CLT01')
+- [Network Setings for CHARL-CLT01](#network-settings-for-'CHARL-CLT01')
   - [🛠️ Network Adaptors on VirtualBox for CHARL-CLT01](#network-adaptors-on-virtualBox-for-'charl-cl01')
   - [🌐 Renaming and configuring network adaptos on CHARL-CLT01](#renaming-and-configuring-network-on-'charl-clt01')
   - [🌐 Network Configuration](#network-configuration-client01)
@@ -15,7 +15,7 @@
 - [📦 What’s Next?](#whats-next)
 - [💬 Questions or Feedback?](#questions-or-feedback)
 
-## <h2 id="network-settings-for-DC01"> 🛠️ Network Adaptors setting </h2>
+## <h2 id="network-settings-for-DC01"> 🛠️ Network Setting for DC01</h2>
 ## <h2 id="network-adaptors-on-virtualBox-for-DC01"> 🌐 Network Adaptors on VirtualBox for DC01 </h2>
 ### 1. Network Adaptors on VirtualBox for DC01
 
